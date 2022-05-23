@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adidas</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="img/adidas-logo.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <a href="index.html"><img class = "logo" src="img/adidas-logo.png"></a>
+            <style>
+                .logo{
+                    height: 36px;
+                    cursor: pointer;
+                    }
+            </style>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Men</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Women</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Kids</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--carousel-->
+
+<div class="containers">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/pexels-kaique-rocha-90365.jpg" style="width:100%;">
+          <div class="carousel-caption">
+            <h1 class="display-2"><strong>Adidas make the world a better place</strong></h1>
+        <h3>Wear it and be happy</h3>
+        <button type="button" class="btna btn-outline-light btn-lg" ><a href="#" style="text-decoration: none; color: white;"> INFO</a></button>
+        <button type="button" class="btna btn-primary btn-lg"><a href="#" style="text-decoration: none; color: white;">PAGE</a></button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/pexels-matthew-barra-812875.jpg"  style="width:100%;">
+          <div class="carousel-caption">
+            <h1 class="display-2"><strong>Adidas make the world a better place</strong></h1>
+        <h3>Wear it and be happy</h3>
+        <button type="button" class="btna btn-outline-light btn-lg" ><a href="#" style="text-decoration: none; color: white;"> INFO</a></button>
+        <button type="button" class="btna btn-primary btn-lg"><a href="#" style="text-decoration: none; color: white;">PAGE</a></button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/background3.jpeg"  style="width:100%;">
+          <div class="carousel-caption">
+            <h1 class="display-2"><strong>Adidas make the world a better place</strong></h1>
+        <h3>Wear it and be happy</h3>
+        <button type="button" class="btna btn-outline-light btn-lg" ><a href="#" style="text-decoration: none; color: white;"> INFO</a></button>
+        <button type="button" class="btna btn-primary btn-lg"><a href="#" style="text-decoration: none; color: white;">PAGE</a></button>
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+<br><br><br>
+<div class="head-text3">
+<h1><mark>SALES</mark></h1>
+</div>
+<br><br><br>
+
+<!-- cards -->
+<div id="myBtnContainer" style="text-align:center;">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('adidas')"> Adidas</button>
+  <button class="btn" onclick="filterSelection('nike')"> Nike</button>
+  <button class="btn" onclick="filterSelection('reebook')"> Reebook</button>
+  <button class="btn" onclick="filterSelection('other')"> Other</button>
+</div>
+
+<div class="container mx-auto mt-4">
+  <div class="row">
+    <!--card1-->
+  <div class="filterDiv nike">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+  <img src="img/postmove mid shoes.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><b>≈POSTMOVE MID SHOES</b></h5>
+        <h6 class="card-subtitle"><s>$75</s> $53</h6>
+    <p class="card-text"><i>Basketball-inspired shoes for all-day comfort and style.</i></p>
+       <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+  </div>
+  </div>
+    </div>
+  </div>
+  <!--card2-->
+  <div class="filterDiv other">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+        <img src="img/Alphatorsion 2.0 shoes.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>ALPHATORSION 2.0</b></h5>
+              <h6 class="card-subtitle"><s>$110</s> $77</h6>
+          <p class="card-text"><i>Versatile running shoes that support all your workout goals.</i></p>
+          <a href="main.html" class="btn  mr-2"><i class="fas fa-link"></i> Buy</a>
+    
+        </div>
+        </div>
+          </div>
+  </div>
+  <div class="filterDiv adidas">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+        <img src="img/run-falcon.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>RUN FALCON 2.0</b></h5>
+              <h6 class="card-subtitle"><s>$60</s> $42</h6>
+          <p class="card-text"><em>Casual athletic sneakers for an active lifestyle.</em></p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+    
+        </div>
+        </div>
+        </div>
+  </div>
+  <div class="filterDiv reebook">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+  <img src="img/duramo 10.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><b>DURAMO 10 SHOES</b></h5>
+        <h6 class="card-subtitle"><s>$65</s> $46</h6>
+    <p class="card-text"><i>Daily-wear running shoes, made in part with recycled materials</i></p>
+       <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+  </div>
+  </div>
+    </div>
+  </div>
+  <div class="filterDiv other nike">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+        <img src="img/superstar shoes.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>SUPERSTAR SHOES</b></h5>
+              <h6 class="card-subtitle"><s>$100</s> $70</h6>
+          <p class="card-text"><i>A twist on the Adidas Superstar shoes, made in part with recycled materials</i></p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+    
+        </div>
+        </div>
+          </div>
+  </div>
+  <div class="filterDiv nike">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+        <img src="img/predator.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>PREDATOR EDGE.3 LACELESS TURF</b> </h5>
+              <h6 class="card-subtitle"><s>$100</s> $80</h6>
+          <p class="card-text"><i>Laceless, Control-enhancing shoes made in part with recycled materials </i></p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+    
+        </div>
+        </div>
+        </div>
+  </div>
+  <div class="filterDiv adidas">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+        <img src="img/predator.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>PREDATOR EDGE.3 LACELESS TURF</b> </h5>
+              <h6 class="card-subtitle"><s>$100</s> $80</h6>
+          <p class="card-text"><i>Laceless, Control-enhancing shoes made in part with recycled materials </i></p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+    
+        </div>
+        </div>
+        </div>
+  </div>
+  <div class="filterDiv nike">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+        <img src="img/predator.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>PREDATOR EDGE.3 LACELESS TURF</b> </h5>
+              <h6 class="card-subtitle"><s>$100</s> $80</h6>
+          <p class="card-text"><i>Laceless, Control-enhancing shoes made in part with recycled materials </i></p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+    
+        </div>
+        </div>
+        </div>
+  </div>
+  <div class="filterDiv reebook">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+        <img src="img/predator.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>PREDATOR EDGE.3 LACELESS TURF</b> </h5>
+              <h6 class="card-subtitle"><s>$100</s> $80</h6>
+          <p class="card-text"><i>Laceless, Control-enhancing shoes made in part with recycled materials </i></p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+    
+        </div>
+        </div>
+        </div>
+  </div>
+  <div class="filterDiv reebook other">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+        <img src="img/predator.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>PREDATOR EDGE.3 LACELESS TURF</b> </h5>
+              <h6 class="card-subtitle"><s>$100</s> $80</h6>
+          <p class="card-text"><i>Laceless, Control-enhancing shoes made in part with recycled materials </i></p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+    
+        </div>
+        </div>
+        </div>
+  </div>
+  <div class="filterDiv nike">
+    <div class="col-md-4">
+      <div class="card" style="width: 25rem;">
+        <img src="img/predator.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>PREDATOR EDGE.3 LACELESS TURF</b> </h5>
+              <h6 class="card-subtitle"><s>$100</s> $80</h6>
+          <p class="card-text"><i>Laceless, Control-enhancing shoes made in part with recycled materials </i></p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Buy</a>
+    
+        </div>
+        </div>
+        </div>
+  </div>
+</div>
+</div>
+<!--audio is here-->
+<div class="audio">
+  <style>
+  .audio{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      grid-gap: 10px;
+      grid-template-areas: 
+      "title title title"
+      "status status status"
+      "play pause restart";
+  }
+  #title{
+      grid-area: title;
+  }
+  #status{
+      grid-area: status;
+  }
+  #play{
+      grid-area: play;
+  }
+  #pause{
+      grid-area: pause;
+  }
+  #restart{
+      grid-area: restart;
+  }
+  </style>
+      <div id="status" style="color:red; text-align: center; font-size: 20px;">Status: Loading</div>
+      <button id="play" class="btn">Play</button>
+      <button id="pause" class="btn">Pause</button>
+      <button id="restart" class="btn">Restart</button>
+  </div>
+
+<!--contact-->
+<div class="contact1">
+    <div class="container-contact1">
+        <div class="contact1-pic js-tilt">
+            <img src="img/img-01.png" alt="IMG">
+        </div>
+
+        <form class="contact1-form validate-form">
+          <h1 class="contact1-form-title">Stay in touch with 
+            <span
+               class="txt-rotate"
+               data-period="2000"
+               data-rotate='[ "us.", "adidas.", "healty life.", "abay"]'></span>
+            </h1>
+          
+
+            <div class="wrap-input1 validate-input" data-validate = "Name is required">
+                <input class="input1" type="text" name="name" placeholder="Name" required>
+            </div>
+
+            <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                <input class="input1" type="text" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+                <input class="input1" type="text" name="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="wrap-input1 validate-input" data-validate = "Message is required">
+                <textarea class="input1" name="message" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="form-group col-md-2">
+              <input type="button" class="btn" value="Date" id="btna"></button>
+                    <p id="some"></p>
+              <script>
+                document.getElementById("btna").addEventListener("click", displayDate);
+                function displayDate() {
+                  document.getElementById("some").innerHTML = Date();
+                }
+              </script>
+              </div>
+
+            <div class="container-contact1-form-btn">
+                <button class="contact1-form-btn">
+                    <span>
+                        Send Email
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--footer-->
+<footer class="bg-dark text-center text-white">
+    <div class="container p-4">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </section>
+      <section class="mb-4">
+        <p>
+        Kickers is an optimized online store with which you can place orders for your favorite sneaker models from anywhere in the world.
+        </p>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.5);">
+      &copy; 2022 Copyright:
+      <a class="text-white" href="#">Aldiyar Dosymov</a>
+    </div>
+  </footer>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
